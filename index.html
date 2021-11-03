@@ -11,34 +11,43 @@
 
 <body>
   <header>
-    <div class="container1">
+    <div class="flex">
       <img src="logotipo.png" alt="Logotipo Curriculo" class="logotipo">
-      <p class="maiusculo">Curriculum Vitae</p>
+      <p class="maiusculo" id="curriculo">Curriculum Vitae</p>
     </div>
-    <img src="foto.jpg" alt="Dario" id="perfil">
-    <div>
-      <h1>Dario Distaso</h1>
-      <p>Função pretendida: Estagiário Desenvolvedor</p>
+    <div id="div-perfil" class="flex">
+      <img src="foto.jpg" alt="Dario" id="foto-perfil">
+    </div>
+    <div class="flex">
+      <h1 class="maiusculo" style="font-size: 28px; padding-bottom: 30px;">Dario Distaso</h1>
+      <p class="maiusculo" style="font-size: 20px; padding-bottom: 30px;">Função pretendida: Estagiário Desenvolvedor</p>
     </div>
   </header>
 
-  <section class="cabecalho">
-      <h2>Informações pessoais</h2>
-      <p>Idade: 50</p>
-      <p>Masculino</p>
-      <p>Cpf: 22983121844</p>
-  </section>
-  <section class="cabecalho">
-    <h2>Experiência de trabalho</h2>
+  <section>
+    <h2 class="maiusculo titulo-secao">Informações pessoais</h2>
+    <div class="margens">
       <div>
+        <p>
+          <strong>Idade: </strong>50
+        </p>
+        <p><strong>Sexo: </strong>
+          Masculino</p>
+        <p><strong>Cpf: </strong>22983121844</p>
+      </div>
+    </div>
+
+    <h2 class="maiusculo titulo-secao">Experiência de trabalho</h2>
+      <div class="margens">
         <div>
-          <h3>Farmácia Preço Popular – Florianópolis</h3>
+          <h3 >Farmácia Preço Popular – Florianópolis</h3>
           <p class="funcao"><strong>Farmacêutico Responsável</strong></p>
           <p>janeiro 2016 – abril 2020</p>
         </div>
         <p>Principais Atividades: liderança de equipe, atendimento ao público, escrituração de medicamentos controlados, conferência de estoque, atenção farmacêutica</p>
       </div>
-      <div>
+
+      <div class="margens">
         <div>
           <h3>Rede Masterfarma – São José</h3>
           <p class="funcao"><strong>Farmacêutico Responsável</strong></p>
@@ -46,7 +55,8 @@
         </div>
         <p>Principais Atividades: Atendimento ao público, pedidos, escrituração de medicamentos controlados e transmissão de dados ao SNGPC, entrada de notas de mercadoria, conferência de estoque, atenção farmacêutica</p>
       </div>
-      <div>
+
+      <div class="margens">
         <div>
           <h3>Farmácia e Drogaria Express – Florianópolis</h3>
           <p class="funcao"><strong>Farmacêutico Responsável</strong></p>
@@ -55,8 +65,9 @@
         <p>Principais Atividades: Atendimento ao público, tele-entrega, escrituração de medicamentos controlados e transmissão de dados ao SNGPC, entrada de notas de mercadoria, conferência de estoque</p>
       </div>
   </section>
-  <footer class="cabecalho">
-    <div>
+
+  <footer>
+    <div class="flex">
       <img src="maps.png" alt="googlemaps" class="icone">
       <a href="https://maps.google.com/maps?q=R.+begonia,+144+Florianópolis+-+SC" target="blank">Rua Begônia 144 - Itacorubi - Florianópolis</a>
     </div>

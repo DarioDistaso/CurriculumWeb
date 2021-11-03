@@ -9,10 +9,12 @@ body {
 h1{
     color: red;
 }
+
 h2{
     color: green;
 }
-.logotipo {
+
+#titulo img {
     width: 70px;
     height: 30px;
 }
@@ -21,13 +23,24 @@ h2{
     color: brown;
 }
 
-#perfil{
-    width: 300px;
+#foto-perfil{
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.logotipo{
+    height: 30px;
+    width: 30px;
 }
 
 .icone{
     width: 20px;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -35,13 +48,55 @@ h2{
 
 html,body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.container1{
     display: flex;
+    flex-direction: column;
 }
 
 .maiusculo{
     text-transform: uppercase;
+    font-weight: bold;
 }
 
+#curriculo{
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.pessoais{
+    margin-left: 20px;
+}
+
+#div-perfil{
+    align-items: center;
+    overflow: hidden;
+}
+
+#div-perfil img{
+    width: 100%;
+}
+
+.titulo-secao{
+    background-color: #EEEEEE;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+section p{
+    line-height: 2rem;
+}
+
+.margens{
+    padding-left: 20px;
+    padding-top: 30px;
+}
