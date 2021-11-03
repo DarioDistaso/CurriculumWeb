@@ -1,0 +1,47 @@
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: red;
+}
+h2{
+    color: green;
+}
+.logotipo {
+    width: 70px;
+    height: 30px;
+}
+
+.funcao{
+    color: brown;
+}
+
+#perfil{
+    width: 300px;
+}
+
+.icone{
+    width: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container1{
+    display: flex;
+}
+
+.maiusculo{
+    text-transform: uppercase;
+}
+
