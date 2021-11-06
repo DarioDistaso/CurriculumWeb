@@ -27,8 +27,8 @@ h2{
     max-height: 150px;
     max-width: 150px;
     border-radius: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     
 }
 
@@ -66,22 +66,31 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
-.pessoais{
-    margin-left: 20px;
+
+#rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
 }
+
 
 #div-perfil{
     align-items: center;
     overflow: hidden;
 }
 
-#estilo-footer{
+.estilo-footer{
     background-color: rgb(220, 241, 125);
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
 }
 
 #div-perfil img{
@@ -106,8 +115,5 @@ section p{
 }
 
 .margens-footer{
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 30px;
+    margin: 20px
 }
