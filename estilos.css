@@ -91,6 +91,7 @@ html,body{
     width: 100%;
     justify-content: center;
     margin: 20px;
+    border: 1px solid blue;
 }
 
 #div-perfil img{
@@ -102,6 +103,7 @@ html,body{
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
+    border: 1px solid blue;
 }
 
 section p{
@@ -114,6 +116,10 @@ section p{
     padding-bottom: 30px;
 }
 
-.margens-footer{
-    margin: 20px
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
 }
